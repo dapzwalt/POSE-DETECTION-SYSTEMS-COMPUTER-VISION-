@@ -19,9 +19,7 @@ body locations, analyze posture, and categorize movements. This task uses machin
 
 ## Importing Necessary Libraries
 I imported two important libraries which are openCV and MediaPipe. The OpenCV is used for the identification of my webcam in my compiter systemn while the MediaPipe is used for pose detection.
-> *import cv2
-
-import MediaPipe as mp*
+> *import cv2 import MediaPipe as mp*
 
 ## Real-time Pose Detection
 
