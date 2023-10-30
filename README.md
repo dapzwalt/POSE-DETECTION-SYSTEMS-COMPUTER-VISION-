@@ -7,6 +7,7 @@
 - [Getting started](#getting-started)
 - [Importing Necessary Libraries](#importing-necessary-libraries)
 - [Real-time Pose Detection](#real-time-pose-detection)
+- [Sample Output](#sample-output)
 - [Contribution](#contribution)
 - [License](#license)
 
@@ -35,12 +36,17 @@ The code is as follows:
     cv2.putText(img, '10Alytics Pose Detection', (10, 55), cv2.FONT_HERSHLEY_PLAIN, 2, (0,255,255), 2)
     cv2.imshow('10Alytics Pose Detection', img)
     if cv2.waitkey(1) & 0xff == ord('q'):
-        break*
+        break* <
+
+## Sample Output
+![PD1](https://github.com/dapzwalt/POSE-DETECTION-SYSTEMS-COMPUTER-VISION-/assets/125368548/343cce21-709c-4209-a91a-5251ab8193c6)
+![PD2](https://github.com/dapzwalt/POSE-DETECTION-SYSTEMS-COMPUTER-VISION-/assets/125368548/c9bb4928-3839-42b5-97ff-5058915b3af6)
+![PD3](https://github.com/dapzwalt/POSE-DETECTION-SYSTEMS-COMPUTER-VISION-/assets/125368548/fa51e412-19f3-4e31-87ba-804665d1e858)
 
 ## Contribution
 Your contribution is highly welcome as this project is open source, and you can open issues or submit pull requests as we are here to grow and learn together.
 
-##License
+## License
 This project is released under the MIT licensing board, which means you can use it to the best of your ability and be flexible around it. 
 
 
